@@ -1,0 +1,20 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "files.exclude": {
+    "**/.next": true,
+    "**/.yarn": true,
+    "**/node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Dracula",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2
+}
