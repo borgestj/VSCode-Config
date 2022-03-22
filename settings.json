@@ -1,20 +1,48 @@
 {
+  // Configurações da fonte Fira Code
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.semanticHighlighting.enabled": false,
+
+  // Demais configurações
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [80, 120],
+    
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
   "files.exclude": {
     "**/.next": true,
     "**/.yarn": true,
     "**/node_modules": true
   },
-  "editor.formatOnSave": true,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "gutter",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
-  "prettier.singleQuote": true,
-  "workbench.colorTheme": "Dracula",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2
 }
